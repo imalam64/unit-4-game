@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+</head>
+<body>
+    <div class="banner">
+            Crystals Collector Game
+    </div>
+
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        
+        <p>There are four crystals below. By clicking on a crystal you will add 
+        a specific amount of points to your total score.</p> 
+        
+        <p>You win the game by matching your total score to the random number,
+        you lose the game if your total score goes above the random number.</p>
+        
+        <p>The value of each crystal if hidden from you until you click on it.</p>
+        
+        <p>Each time when the game starts, the game will change the values
+        of each crystal.</p>
+
+    </div>
+
+    <div id="randomCompGen">
+
+    </div>
+
+    <div class="scoreCard">
+        <ul>
+            <li id="win">Wins: 0</li>
+            <li id="lose">Losses: 0</li>
+        </ul>
+    </div>
+
+    <div class="crystals">
+        <span id = "crystal1">
+            <img src="Assets/Images/Diamond.png">
+        </span>
+        <span id = "crystal2">
+            <img src="Assets/Images/Ruby.png">
+        </span>
+        <span id = "crystal3">
+            <img src="Assets/Images/Sapphire.png">
+        </span>
+        <span id = "crystal4">
+            <img src="Assets/Images/Topaz.png">
+        </span>
+    </div>
+
+    <div id="currentScore">
+        Your total score is: 0
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+         crossorigin="anonymous"></script>
+    <script src="Assets/Javascript/game.js"></script>
+</body>
+</html>
