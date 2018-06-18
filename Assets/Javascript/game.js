@@ -47,7 +47,7 @@ function gameCheck(){
 
 //assigning the values to the images and waits for event click from user 
 //adds to the current score and displays the newest score
-//runs gameCheck which has a reset nested within it
+//runs gameCheck which has the reset nested within it
 
 $('#crystal1').click(function(){
     userScore = userScore + cryst1;

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: zelda;
+    src: url(Ravenna.ttf)
+}
+
+body{
+    background-image: url("..Images\zelda-a-collection-of-items-comforters.jpg");
+}
+
+.banner{
+    width: auto 960px;
+    border: solid 7px #0d9263;
+    text-align: center;
+    padding: 1rem;
+    font-family: zelda;
+    font-size: 45px;
+    font: #494b4b;
+    margin-bottom: 1rem;
+}
+
+.instructions{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    float: left;
+    width: 480px;
+    text-align: left;
+    padding: 5px;
+    border: solid 4px #4aba91;
+    font: #494b4b;
+}
