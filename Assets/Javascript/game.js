@@ -8,7 +8,7 @@ var userScore = 0;
 var compNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
 //this will display that number to the user
-$("#randomCompGen").html(compNumber);
+$("#randomCompGen").html('Random Number: ' + compNumber);
 
 //this will generate a random value for the crystals
 //user will not see the value
@@ -22,7 +22,7 @@ function reset(){
     userScore = 0;
     $('#currentScore').html(userScore);
     compNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
-    $("#randomCompGen").html(compNumber);
+    $("#randomCompGen").html('Random Number: ' + compNumber);
     cryst1 = Math.floor(Math.random() * 12) + 1;
     cryst2 = Math.floor(Math.random() * 12) + 1;
     cryst3 = Math.floor(Math.random() * 12) + 1;

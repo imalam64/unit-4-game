@@ -4,18 +4,18 @@
 }
 
 body{
-    background-image: url("..Images\zelda-a-collection-of-items-comforters.jpg");
+    background-image: url('../Images/zelda-a-collection-of-items-comforters.jpg');
 }
 
 .banner{
-    width: auto 960px;
+    width: auto 100%;
     border: solid 7px #0d9263;
     text-align: center;
     padding: 1rem;
     font-family: zelda;
     font-size: 45px;
     margin-bottom: 1rem;
-    background: #d4ce46;
+    background: #d4cd46cc;
 }
 
 .instructions{
@@ -27,4 +27,73 @@ body{
     padding: 5px;
     border: solid 4px #4aba91;
     font: #494b4b;
+    background: rgba(245, 245, 245, 0.966);
+    margin: 1rem;
+}
+
+.topBoxRt{
+    float: left;
+    width: 480px;
+}
+
+.scoreCard{
+    border: solid 4px #4aba91;
+    font: #494b4b;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  40px;
+    text-align: left;
+    background:  rgba(245, 245, 245, 0.966);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 1rem auto;
+}
+
+#randomCompGen{
+    border: solid 4px #4aba91;
+    font: #494b4b;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  40px;
+    text-align: center;
+    background:  rgba(245, 245, 245, 0.966);
+    padding: 2rem;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.crystals{
+    width: 500px;
+    margin: 1rem;
+    overflow: auto
+}
+
+.crystalKeep{
+    border: solid 4px #4aba91;
+    margin-right: 1rem;
+    float: left;
+    height: 100px;;
+    background-color:  rgba(245, 245, 245, 0.966);
+}
+
+#scoreBox{
+    border: solid 4px #4aba91;
+    float: left;
+    font: #494b4b;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  40px;
+    padding: 2rem;
+    margin: 1rem;
+    background:  rgba(245, 245, 245, 0.966);
+}
+
+.footer{
+    border-top: solid 4px #4aba91;
+    float: left;
+    font: #494b4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:  12px;
+    background: #d4ce46;
+    overflow: auto;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
 }
