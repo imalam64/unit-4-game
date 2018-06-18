@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="banner">
@@ -55,13 +56,10 @@
         </span>
     </div>
 
-    <div id="currentScore">
-        Your total score is: 0
+    <div id="scoreBox">
+        Your total score is: <span id="currentScore">0</span>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-         crossorigin="anonymous"></script>
     <script src="Assets/Javascript/game.js"></script>
 </body>
 </html>
