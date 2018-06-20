@@ -87,13 +87,15 @@ body{
 
 .footer{
     border-top: solid 4px #4aba91;
-    float: left;
     font: #494b4b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:  12px;
     background: #d4ce46;
     overflow: auto;
-    width: 100%;
     padding: 1rem;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
