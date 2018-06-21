@@ -18,71 +18,48 @@ body{
     background: #d4cd46cc;
 }
 
-.instructions{
+#instructions{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    float: left;
-    width: 480px;
     text-align: left;
-    padding: 5px;
     border: solid 4px #4aba91;
     font: #494b4b;
     background: rgba(245, 245, 245, 0.966);
-    margin: 1rem;
-}
-
-.topBoxRt{
-    float: left;
-    width: 480px;
 }
 
 .scoreCard{
     border: solid 4px #4aba91;
     font: #494b4b;
     font-family: 'Open Sans', sans-serif;
-    font-size:  40px;
+    font-size:  30px;
     text-align: left;
     background:  rgba(245, 245, 245, 0.966);
-    padding-right: 2rem;
-    padding-left: 2rem;
-    margin: 1rem auto;
 }
 
 #randomCompGen{
     border: solid 4px #4aba91;
     font: #494b4b;
     font-family: 'Open Sans', sans-serif;
-    font-size:  40px;
-    text-align: center;
+    font-size:  30px;
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
     background:  rgba(245, 245, 245, 0.966);
-    padding: 2rem;
-    margin: 1rem auto;
-    overflow: auto;
 }
 
-.crystals{
-    width: 500px;
-    margin: 1rem;
-    overflow: auto
-}
 
 .crystalKeep{
     border: solid 4px #4aba91;
-    margin-right: 1rem;
-    float: left;
-    height: 100px;;
     background-color:  rgba(245, 245, 245, 0.966);
 }
 
 #scoreBox{
     border: solid 4px #4aba91;
-    float: left;
     font: #494b4b;
     font-family: 'Open Sans', sans-serif;
     font-size:  40px;
-    padding: 2rem;
-    margin: 1rem;
     background:  rgba(245, 245, 245, 0.966);
+    padding: 1rem;
 }
 
 .footer{
