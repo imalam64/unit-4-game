@@ -25,12 +25,14 @@ body{
     border: solid 4px #4aba91;
     font: #494b4b;
     background: rgba(245, 245, 245, 0.966);
+    margin-bottom: 1rem;
 }
 
 .scoreCard{
     border: solid 4px #4aba91;
     font: #494b4b;
     font-family: 'Open Sans', sans-serif;
+    padding: 1rem 2rem 1rem 1rem;
     font-size:  30px;
     text-align: left;
     background:  rgba(245, 245, 245, 0.966);
@@ -42,16 +44,18 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size:  30px;
     text-align: left;
-    padding-left: 2rem;
+    padding: 1rem 2rem 1rem 1rem;
     margin-bottom: 1rem;
     background:  rgba(245, 245, 245, 0.966);
 }
 
 
-.crystalKeep{
+#crystals{
     border: solid 4px #4aba91;
     background-color:  rgba(245, 245, 245, 0.966);
+    padding: 0;
 }
+
 
 #scoreBox{
     border: solid 4px #4aba91;
